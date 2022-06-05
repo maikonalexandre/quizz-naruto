@@ -1,0 +1,96 @@
+:root {
+
+    --var: #5274FA;
+    --var2: #5CCAF2;
+    --var3: #48DBDB;
+    --var4: #47D6E6;
+
+
+}
+
+@font-face {
+    font-family: 'martins';
+    src: url('Mantis.ttf');
+    margin: 0px;
+}
+
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+#screen {
+    margin: auto;
+    text-align: center;
+}
+
+#menu {
+    margin: auto;
+    text-align: center;
+    background-color: #5CCAF2;
+    padding: 15px;
+}
+
+.buscar {
+    padding: 10px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.637) 1px solid;
+
+
+}
+
+.li {
+    display: inline;
+    margin-right: 322px;
+    color: rgb(255, 255, 255);
+    font-family: 'martins', sans-serif;
+    font-size: 2em;
+}
+
+.licorpo {
+    display: inline-block;
+    width: 694px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0px 20px 5px;
+    color: black;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    border: #48DBDB 1px solid;
+
+}
+
+.licorpo:hover {
+    background-color: #47D6E6;
+}
+
+#corpo {
+    width: 700px;
+    margin: auto;
+    display: none;
+}
+
+#pergunta {
+    margin-top: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #5CCAF2;
+    width: 700px;
+    display: block;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#pergunta:hover {
+    background-color: #5274FA;
+}
+
+#imgs {
+    margin-top: 3px;
+    height: 300px;
+    width: 700px;
+}
